@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    background: blue;
+    text-decoration: white;
+    border-radius: 5px;
+}
+
+.filtre {
+    display: flex;
+    justify-content: space-around;
+}
+
+img {
+    height: 200px;
+    width: 200PX;
+    border-radius: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    margin: 20px;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.herbergement {
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+
+}
+
+.enfant {
+    display: flex;
+}
+
+.populaire {
+    justify-content: space-between;
+}
+
+footer {
+    background: grey;
+    align-items: center;
+    justify-content: space-around;
+}
