@@ -1,0 +1,42 @@
+.direction>div {
+    width: 200px;
+    height: 200px;
+    margin: 2em;
+    background: blue;
+}
+
+.direction>div:last-child {
+    background: red;
+}
+
+.direction {
+    display: flex;
+}
+
+
+
+
+/*RESPONSIVE DESINGN*/
+
+@media screen and (max-width: 768px) {
+    .direction {
+        flex-direction: column;
+    }
+
+    h2 {
+        display: none;
+    }
+}
+
+
+
+@media screen and (min-width:767px) and (max-width:996px) {
+    .direction {
+        flex-direction: column-reverse;
+    }
+
+    .direction>div:first-child {
+        background: yellow;
+    }
+
+}
